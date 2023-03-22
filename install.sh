@@ -18,7 +18,7 @@ npx create-next-app@latest "$project_name" --ts --src-dir --eslint
 cd "$project_name"
 
 # install deps
-npm install @mui/material @emotion/react @emotion/styled @material-ui/icons axios dotenv-flow jsonwebtoken lodash @types/lodash next-seo nookies cookies-next randomstring @types/randomstring querystring sharp @prisma/client
+npm install @mui/material @emotion/react @emotion/styled @mui/icons-material axios dotenv-flow jsonwebtoken lodash @types/lodash next-seo nookies cookies-next randomstring @types/randomstring querystring sharp @prisma/client
 npm  prisma --save-dev
 npx prisma init
 
