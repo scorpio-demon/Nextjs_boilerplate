@@ -10,9 +10,9 @@ read -r -p " " project_name
 
 
 # install nextjs typescript
-npx create-next-app@latest --ts --src-dir --eslint --example-path "$project_name"
+npx create-next-app@latest "$project_name" --ts --src-dir --eslint 
 
-cd "project_name"
+cd "$project_name"
 
 # install deps
 npm install @mui/material @emotion/react @emotion/styled axios dotenv-flow jsonwebtoken lodash @types/lodash next-seo nookies cookies-next randomstring @types/randomstring querystring sharp @prisma/client
